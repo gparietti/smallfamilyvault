@@ -2,7 +2,7 @@ import time
 key = "weloveourdog"                                                #This is the password that will be required once family membership has been verified. You can change it.
 key2 = "4"                                                          #This is the answer to the security question that will only be asked after entering the password.You can change it.
 login = ("John Green", "Brianna Red", "Pablo Green", "Anna Green")  #These are the members of the family; each name among the " represents a person. (the first word is the name, the second the surname.)
-print("SMALL FAMILY VAULT by parieeeh")
+print("SMALL FAMILY VAULT by gparietti")
 time.sleep(2)
 user = input("insert your name:")
 print("looking for your name in the family..." + " " + user)
@@ -50,4 +50,4 @@ if user + " " + cog in login:
 else:
     print("not a family member...")
     time.sleep(3)
-#parieeeh idea's
+#gparietti idea's
