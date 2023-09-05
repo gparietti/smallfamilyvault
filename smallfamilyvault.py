@@ -44,7 +44,7 @@ if user + " " + cog in login:
                 print("here you can add your secure things...")
                 time.sleep(3)
             else:
-                print("sccess denied. You should know that...")
+                print("access denied. You should know that...")
                 time.sleep(2)
                 
 else:
